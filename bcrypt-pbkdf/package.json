@@ -1,0 +1,115 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "bcrypt-pbkdf@^1.0.0",
+        "scope": null,
+        "escapedName": "bcrypt-pbkdf",
+        "name": "bcrypt-pbkdf",
+        "rawSpec": "^1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "/node_modules/sshpk"
+    ],
+    [
+      {
+        "raw": "node_modules/bcrypt-pbkdf",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "node_modules/bcrypt-pbkdf",
+        "spec": "/node_modules/bcrypt-pbkdf",
+        "type": "directory",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:node_modules/bcrypt-pbkdf.git",
+          "sshUrl": "git+ssh://git@github.com/node_modules/bcrypt-pbkdf.git",
+          "httpsUrl": "git+https://github.com/node_modules/bcrypt-pbkdf.git",
+          "gitUrl": "git://github.com/node_modules/bcrypt-pbkdf.git",
+          "shortcut": "github:node_modules/bcrypt-pbkdf",
+          "directUrl": "https://raw.githubusercontent.com/node_modules/bcrypt-pbkdf/master/package.json"
+        }
+      },
+      "/"
+    ]
+  ],
+  "_from": "bcrypt-pbkdf@>=1.0.0 <2.0.0",
+  "_id": "bcrypt-pbkdf@1.0.1",
+  "_inCache": true,
+  "_location": "/bcrypt-pbkdf",
+  "_nodeVersion": "0.12.9",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/bcrypt-pbkdf-1.0.1.tgz_1486007687899_0.974529881728813"
+  },
+  "_npmUser": {
+    "name": "arekinath",
+    "email": "alex@cooperi.net"
+  },
+  "_npmVersion": "2.14.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "node_modules/bcrypt-pbkdf",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "node_modules/bcrypt-pbkdf",
+    "spec": "/node_modules/bcrypt-pbkdf",
+    "type": "directory",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:node_modules/bcrypt-pbkdf.git",
+      "sshUrl": "git+ssh://git@github.com/node_modules/bcrypt-pbkdf.git",
+      "httpsUrl": "git+https://github.com/node_modules/bcrypt-pbkdf.git",
+      "gitUrl": "git://github.com/node_modules/bcrypt-pbkdf.git",
+      "shortcut": "github:node_modules/bcrypt-pbkdf",
+      "directUrl": "https://raw.githubusercontent.com/node_modules/bcrypt-pbkdf/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/sshpk"
+  ],
+  "_resolved": "https://registry.npmjs.org/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.1.tgz",
+  "_shasum": "63bc5dcb61331b92bc05fd528953c33462a06f8d",
+  "_shrinkwrap": null,
+  "_spec": "node_modules/bcrypt-pbkdf",
+  "_where": "/",
+  "dependencies": {
+    "tweetnacl": "^0.14.3"
+  },
+  "description": "Port of the OpenBSD bcrypt_pbkdf function to pure JS",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "63bc5dcb61331b92bc05fd528953c33462a06f8d",
+    "tarball": "https://registry.npmjs.org/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.1.tgz"
+  },
+  "gitHead": "fa2ab3ae9efa15367264151398635a915c7b411d",
+  "license": "BSD-3-Clause",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "arekinath",
+      "email": "alex@cooperi.net"
+    },
+    {
+      "name": "dap",
+      "email": "dap@cs.brown.edu"
+    },
+    {
+      "name": "jclulow",
+      "email": "josh@sysmgr.org"
+    },
+    {
+      "name": "trentm",
+      "email": "trentm@gmail.com"
+    }
+  ],
+  "name": "bcrypt-pbkdf",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {},
+  "version": "1.0.1"
+}

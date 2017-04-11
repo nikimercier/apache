@@ -1,0 +1,124 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "ntlm-client",
+        "scope": null,
+        "escapedName": "ntlm-client",
+        "name": "ntlm-client",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/"
+    ],
+    [
+      {
+        "raw": "node_modules/ntlm-client",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "node_modules/ntlm-client",
+        "spec": "/node_modules/ntlm-client",
+        "type": "directory",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:node_modules/ntlm-client.git",
+          "sshUrl": "git+ssh://git@github.com/node_modules/ntlm-client.git",
+          "httpsUrl": "git+https://github.com/node_modules/ntlm-client.git",
+          "gitUrl": "git://github.com/node_modules/ntlm-client.git",
+          "shortcut": "github:node_modules/ntlm-client",
+          "directUrl": "https://raw.githubusercontent.com/node_modules/ntlm-client/master/package.json"
+        }
+      },
+      "/"
+    ]
+  ],
+  "_from": "ntlm-client@latest",
+  "_id": "ntlm-client@0.1.1",
+  "_inCache": true,
+  "_location": "/ntlm-client",
+  "_nodeVersion": "4.2.4",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/ntlm-client-0.1.1.tgz_1464797392334_0.9801113232970238"
+  },
+  "_npmUser": {
+    "name": "clncln1",
+    "email": "nico.haller@gmail.com"
+  },
+  "_npmVersion": "2.14.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "node_modules/ntlm-client",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "node_modules/ntlm-client",
+    "spec": "/node_modules/ntlm-client",
+    "type": "directory",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:node_modules/ntlm-client.git",
+      "sshUrl": "git+ssh://git@github.com/node_modules/ntlm-client.git",
+      "httpsUrl": "git+https://github.com/node_modules/ntlm-client.git",
+      "gitUrl": "git://github.com/node_modules/ntlm-client.git",
+      "shortcut": "github:node_modules/ntlm-client",
+      "directUrl": "https://raw.githubusercontent.com/node_modules/ntlm-client/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/ntlm-client/-/ntlm-client-0.1.1.tgz",
+  "_shasum": "b74e1df09b03524fe540863990d9c6187203d7fd",
+  "_shrinkwrap": null,
+  "_spec": "node_modules/ntlm-client",
+  "_where": "/",
+  "author": {
+    "name": "Nico Haller",
+    "email": "nico.haller@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/clncln1/node-ntlm-client/issues"
+  },
+  "dependencies": {
+    "extend": "^3.0.0",
+    "request": "^2.66.0"
+  },
+  "description": "A node.js NTLM client with support for NTLM and NTLMv2 authentication",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "b74e1df09b03524fe540863990d9c6187203d7fd",
+    "tarball": "https://registry.npmjs.org/ntlm-client/-/ntlm-client-0.1.1.tgz"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "gitHead": "0b36c784ff2b56397ab98f8257f8fc75d24a42e0",
+  "homepage": "https://github.com/clncln1/node-ntlm-client",
+  "keywords": [
+    "ntlm",
+    "ntlmv2",
+    "client",
+    "authentication"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "maintainers": [
+    {
+      "name": "clncln1",
+      "email": "nico.haller@gmail.com"
+    }
+  ],
+  "name": "ntlm-client",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clncln1/node-ntlm-client.git"
+  },
+  "scripts": {},
+  "version": "0.1.1"
+}

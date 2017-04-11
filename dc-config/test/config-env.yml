@@ -1,0 +1,22 @@
+
+production:
+  name: "pool-name-production"
+  path: "/tmp/pool/path"
+  type: "vagrant"
+  "config":
+    "path":
+      "to":
+        "test": "value"
+  vm:
+  vmg:
+
+development:
+  name: "pool-name-development"
+  path: "/tmp/pool/path"
+  type: "vagrant"
+  "config":
+    "path":
+      "to":
+        "test": "value"
+  vm:
+  vmg:

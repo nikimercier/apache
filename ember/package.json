@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "ember",
+        "scope": null,
+        "escapedName": "ember",
+        "name": "ember",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/"
+    ]
+  ],
+  "_from": "ember@latest",
+  "_id": "ember@1.0.2",
+  "_inCache": true,
+  "_location": "/ember",
+  "_nodeVersion": "7.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/ember-1.0.2.tgz_1488388059106_0.18275352590717375"
+  },
+  "_npmUser": {
+    "name": "stefanpenner",
+    "email": "stefan.penner@gmail.com"
+  },
+  "_npmVersion": "4.0.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ember",
+    "scope": null,
+    "escapedName": "ember",
+    "name": "ember",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/ember/-/ember-1.0.2.tgz",
+  "_shasum": "3559bcd14dcafb32a65b71f8a3dd274fdd59b687",
+  "_shrinkwrap": null,
+  "_spec": "ember",
+  "_where": "/",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/emberjs/ember/issues"
+  },
+  "dependencies": {},
+  "description": "A framework for creating ambitious web applications.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "3559bcd14dcafb32a65b71f8a3dd274fdd59b687",
+    "tarball": "https://registry.npmjs.org/ember/-/ember-1.0.2.tgz"
+  },
+  "gitHead": "e4b2afa4a3e09e4c846f42df6db8643fb9aa854a",
+  "homepage": "https://github.com/emberjs/ember#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "charlesjolley",
+      "email": "charles@sproutcore.com"
+    },
+    {
+      "name": "ef4",
+      "email": "ef@alum.mit.edu"
+    },
+    {
+      "name": "emberjs",
+      "email": "core@emberjs.com"
+    },
+    {
+      "name": "fivetanley",
+      "email": "stanley@stan.li"
+    },
+    {
+      "name": "igort",
+      "email": "terzicigor@gmail.com"
+    },
+    {
+      "name": "rwjblue",
+      "email": "me@rwjblue.com"
+    },
+    {
+      "name": "stefanpenner",
+      "email": "stefan.penner@gmail.com"
+    },
+    {
+      "name": "wycats",
+      "email": "wycats@gmail.com"
+    }
+  ],
+  "name": "ember",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emberjs/ember.git"
+  },
+  "scripts": {
+    "postinstall": "node ./index.js"
+  },
+  "version": "1.0.2"
+}

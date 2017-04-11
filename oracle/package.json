@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "oracle",
+        "scope": null,
+        "escapedName": "oracle",
+        "name": "oracle",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/"
+    ]
+  ],
+  "_from": "oracle@latest",
+  "_id": "oracle@0.4.1",
+  "_inCache": true,
+  "_location": "/oracle",
+  "_nodeVersion": "7.2.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/oracle-0.4.1.tgz_1482276451098_0.10276988195255399"
+  },
+  "_npmUser": {
+    "name": "joeferner",
+    "email": "joe@fernsroth.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "oracle",
+    "scope": null,
+    "escapedName": "oracle",
+    "name": "oracle",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/oracle/-/oracle-0.4.1.tgz",
+  "_shasum": "e25729c291a707f899314606c861280978451aad",
+  "_shrinkwrap": null,
+  "_spec": "oracle",
+  "_where": "/",
+  "bugs": {
+    "url": "https://github.com/joeferner/node-oracle/issues"
+  },
+  "dependencies": {},
+  "description": "Oracle database driver",
+  "devDependencies": {
+    "nodeunit": "~>0.8.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "e25729c291a707f899314606c861280978451aad",
+    "tarball": "https://registry.npmjs.org/oracle/-/oracle-0.4.1.tgz"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "gitHead": "9f1e9b10046524a904b4eef713032fdbed20eddf",
+  "gypfile": true,
+  "homepage": "https://github.com/joeferner/node-oracle",
+  "keywords": [
+    "database",
+    "db",
+    "oracle"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "maintainers": [
+    {
+      "name": "cjbj",
+      "email": "christopher.jones@oracle.com"
+    },
+    {
+      "name": "joeferner",
+      "email": "joe@fernsroth.com"
+    }
+  ],
+  "name": "oracle",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joeferner/node-oracle.git"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "test": "nodeunit test/integration.js test/outparams.js"
+  },
+  "version": "0.4.1"
+}

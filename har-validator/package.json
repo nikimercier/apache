@@ -1,0 +1,110 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "har-validator@5.0.2",
+        "scope": null,
+        "escapedName": "har-validator",
+        "name": "har-validator",
+        "rawSpec": "5.0.2",
+        "spec": "5.0.2",
+        "type": "version"
+      },
+      "/usr/local/lib/node_modules"
+    ]
+  ],
+  "_from": "har-validator@5.0.2",
+  "_id": "har-validator@5.0.2",
+  "_inCache": true,
+  "_location": "/har-validator",
+  "_nodeVersion": "7.7.2",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/har-validator-5.0.2.tgz_1489527271584_0.08811150095425546"
+  },
+  "_npmUser": {
+    "name": "ahmadnassri",
+    "email": "ahmad@ahmadnassri.com"
+  },
+  "_npmVersion": "4.1.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "har-validator@5.0.2",
+    "scope": null,
+    "escapedName": "har-validator",
+    "name": "har-validator",
+    "rawSpec": "5.0.2",
+    "spec": "5.0.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/har-validator/-/har-validator-5.0.2.tgz",
+  "_shasum": "25a23c7a67465531ea9f3d3f8aebeca7d6914b5f",
+  "_shrinkwrap": null,
+  "_spec": "har-validator@5.0.2",
+  "_where": "/usr/local/lib/node_modules",
+  "author": {
+    "name": "Ahmad Nassri",
+    "email": "ahmad@ahmadnassri.com",
+    "url": "https://www.ahmadnassri.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/ahmadnassri/har-validator/issues"
+  },
+  "dependencies": {
+    "ajv": "^4.9.1",
+    "har-schema": "^1.0.5"
+  },
+  "description": "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+  "devDependencies": {
+    "echint": "^4.0.1",
+    "standard": "^9.0.1",
+    "tap": "^10.3.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "25a23c7a67465531ea9f3d3f8aebeca7d6914b5f",
+    "tarball": "https://registry.npmjs.org/har-validator/-/har-validator-5.0.2.tgz"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "lib"
+  ],
+  "gitHead": "be27f68b78ae2d6ae66c419d15df99b99f0a8eaf",
+  "homepage": "https://github.com/ahmadnassri/har-validator",
+  "keywords": [
+    "har",
+    "cli",
+    "ajv",
+    "http",
+    "archive",
+    "validate",
+    "validator"
+  ],
+  "license": "ISC",
+  "main": "lib/promise.js",
+  "maintainers": [
+    {
+      "name": "ahmadnassri",
+      "email": "ahmad@ahmadnassri.com"
+    }
+  ],
+  "name": "har-validator",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadnassri/har-validator.git"
+  },
+  "scripts": {
+    "coverage": "tap test --reporter silent --coverage",
+    "lint": "standard && echint",
+    "pretest": "npm run lint",
+    "test": "tap test"
+  },
+  "version": "5.0.2"
+}

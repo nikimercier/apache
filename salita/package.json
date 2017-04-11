@@ -1,0 +1,119 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "salita",
+        "scope": null,
+        "escapedName": "salita",
+        "name": "salita",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/"
+    ]
+  ],
+  "_from": "salita@latest",
+  "_id": "salita@0.10.1",
+  "_inCache": true,
+  "_location": "/salita",
+  "_nodeVersion": "7.1.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/salita-0.10.1.tgz_1479487910190_0.2542793082538992"
+  },
+  "_npmUser": {
+    "name": "ljharb",
+    "email": "ljharb@gmail.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "salita",
+    "scope": null,
+    "escapedName": "salita",
+    "name": "salita",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/salita/-/salita-0.10.1.tgz",
+  "_shasum": "6648b639b79b0fbde7d0effc8761b982e5d7b257",
+  "_shrinkwrap": null,
+  "_spec": "salita",
+  "_where": "/",
+  "author": {
+    "name": "Tim Branyen",
+    "url": "@tbranyen"
+  },
+  "bin": {
+    "salita": "bin/salita"
+  },
+  "bugs": {
+    "url": "https://github.com/tbranyen/salita/issues"
+  },
+  "contributors": [
+    {
+      "name": "Tim Branyen",
+      "url": "https://github.com/tbranyen"
+    },
+    {
+      "name": "Jordan Harband",
+      "email": "ljharb@gmail.com",
+      "url": "https://github.com/ljharb/"
+    }
+  ],
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "cli-table": "^0.3.1",
+    "for-each": "^0.3.2",
+    "json-file-plus": "^3.3.0",
+    "npm": "^3.10.8",
+    "object.assign": "^4.0.4",
+    "promise": "^7.1.1",
+    "semver": "^5.3.0",
+    "yargs": "^5.0.0"
+  },
+  "description": "Automatically upgrade all dependencies, devDependencies, and peerDependencies",
+  "devDependencies": {
+    "@ljharb/eslint-config": "^8.0.0",
+    "eslint": "^3.6.1",
+    "jscs": "^3.0.7"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "6648b639b79b0fbde7d0effc8761b982e5d7b257",
+    "tarball": "https://registry.npmjs.org/salita/-/salita-0.10.1.tgz"
+  },
+  "gitHead": "cfe02a7ce7ec487177a8f99fdb3a2f2b474ac350",
+  "homepage": "https://github.com/tbranyen/salita#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "tbranyen",
+      "email": "tim@tabdeveloper.com"
+    },
+    {
+      "name": "ljharb",
+      "email": "ljharb@gmail.com"
+    }
+  ],
+  "name": "salita",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tbranyen/salita.git"
+  },
+  "scripts": {
+    "eslint": "eslint *.js bin/salita",
+    "jscs": "jscs *.js bin/salita",
+    "lint": "npm run --silent jscs && npm run --silent eslint",
+    "pretest": "npm run --silent lint"
+  },
+  "version": "0.10.1"
+}

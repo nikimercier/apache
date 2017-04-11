@@ -1,0 +1,30 @@
+{
+  "production": {
+    "name": "pool-name-production",
+    "path": "/tmp/pool/path",
+    "type": "vagrant",
+    "config": {
+      "path": {
+        "to": {
+          "test": "value"
+        }
+      }
+    },
+    "vm": [],
+    "vg": []
+  },
+  "development": {
+    "name": "pool-name-development",
+    "path": "/tmp/pool/path",
+    "type": "vagrant",
+    "config": {
+      "path": {
+        "to": {
+          "test": "value"
+        }
+      }
+    },
+    "vm": [],
+    "vg": []
+  }
+}

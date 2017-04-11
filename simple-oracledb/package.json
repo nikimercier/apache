@@ -1,0 +1,115 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "simple-oracledb",
+        "scope": null,
+        "escapedName": "simple-oracledb",
+        "name": "simple-oracledb",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/"
+    ]
+  ],
+  "_from": "simple-oracledb@latest",
+  "_id": "simple-oracledb@1.1.63",
+  "_inCache": true,
+  "_location": "/simple-oracledb",
+  "_nodeVersion": "4.6.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/simple-oracledb-1.1.63.tgz_1491904612422_0.08657573885284364"
+  },
+  "_npmUser": {
+    "name": "sagiegurari",
+    "email": "sagiegurari@gmail.com"
+  },
+  "_npmVersion": "4.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "simple-oracledb",
+    "scope": null,
+    "escapedName": "simple-oracledb",
+    "name": "simple-oracledb",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/simple-oracledb/-/simple-oracledb-1.1.63.tgz",
+  "_shasum": "666ba7381bc77838a89b2b270ba9e5b12818b76e",
+  "_shrinkwrap": null,
+  "_spec": "simple-oracledb",
+  "_where": "/",
+  "author": {
+    "name": "Sagie Gur-Ari",
+    "email": "sagiegurari@gmail.com"
+  },
+  "bugs": {
+    "url": "http://github.com/sagiegurari/simple-oracledb/issues"
+  },
+  "dependencies": {
+    "async": "^2.3.0",
+    "debuglog": "^1.0.1",
+    "event-emitter-enhancer": "latest",
+    "semver": "^5.3.0"
+  },
+  "description": "Extend capabilities of oracledb with simplified API for quicker development.",
+  "devDependencies": {
+    "chai": "latest",
+    "grunt": "latest",
+    "grunt-cli": "latest",
+    "grunt-shell": "latest",
+    "husky": "latest",
+    "js-project-commons": "latest",
+    "promiscuous": "latest"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test/spec"
+  },
+  "dist": {
+    "shasum": "666ba7381bc77838a89b2b270ba9e5b12818b76e",
+    "tarball": "https://registry.npmjs.org/simple-oracledb/-/simple-oracledb-1.1.63.tgz"
+  },
+  "gitHead": "ad6b35df8e8e6e4f034c692c41d4d0fdeaa4a700",
+  "homepage": "http://github.com/sagiegurari/simple-oracledb",
+  "keywords": [
+    "oracle",
+    "oracledb",
+    "database"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "sagiegurari",
+      "email": "sagiegurari@gmail.com"
+    }
+  ],
+  "name": "simple-oracledb",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sagiegurari/simple-oracledb.git"
+  },
+  "scripts": {
+    "build": "grunt build",
+    "clean": "grunt cleanup",
+    "debug": "mocha --debug-brk=5858 --no-timeouts --ui bdd --reporter spec --recursive ./test/spec",
+    "docs": "grunt docs",
+    "format": "grunt format",
+    "grunt": "grunt",
+    "jstest": "grunt jstest",
+    "lint": "grunt lint",
+    "postpublish": "grunt post-publish",
+    "prepush": "npm run build",
+    "test": "grunt test"
+  },
+  "version": "1.1.63"
+}

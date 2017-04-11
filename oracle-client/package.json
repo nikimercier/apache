@@ -1,0 +1,126 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "oracle-client",
+        "scope": null,
+        "escapedName": "oracle-client",
+        "name": "oracle-client",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/"
+    ]
+  ],
+  "_from": "oracle-client@latest",
+  "_id": "oracle-client@1.1.0",
+  "_inCache": true,
+  "_location": "/oracle-client",
+  "_nodeVersion": "7.3.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/oracle-client-1.1.0.tgz_1484920784242_0.8044213894754648"
+  },
+  "_npmUser": {
+    "name": "johanobrink",
+    "email": "johan.obrink@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "oracle-client",
+    "scope": null,
+    "escapedName": "oracle-client",
+    "name": "oracle-client",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/oracle-client/-/oracle-client-1.1.0.tgz",
+  "_shasum": "7cef170e37eb1b56db0d5706abde0d4ae561a461",
+  "_shrinkwrap": null,
+  "_spec": "oracle-client",
+  "_where": "/",
+  "author": {
+    "name": "Johan Öbrink",
+    "email": "johan.obrink@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/JohanObrink/oracle-client/issues"
+  },
+  "dependencies": {
+    "change-case": "^2.3.1",
+    "lodash": "^3.10.1",
+    "moment": "^2.11.0",
+    "node-uuid": "^1.4.7"
+  },
+  "description": "An oracledb client for connecting to oracledb directly, serving the connection through a web socket or consuming said web socket.",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "chai": "^3.4.1",
+    "fs-promise": "^0.3.1",
+    "gulp": "^3.9.0",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-htmlmin": "^1.3.0",
+    "gulp-karma": "0.0.5",
+    "gulp-mocha": "^2.2.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-template": "^3.1.0",
+    "gulp-uglify": "^1.5.1",
+    "karma-mocha-reporter": "^1.1.5",
+    "main-bower-files": "^2.11.1",
+    "mocha": "^2.3.4",
+    "oracledb": "^1.11.0",
+    "proxyquire": "^1.7.3",
+    "run-sequence": "^1.1.5",
+    "sinon": "^1.17.2",
+    "sinon-as-promised": "^4.0.0",
+    "sinon-chai": "^2.8.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "7cef170e37eb1b56db0d5706abde0d4ae561a461",
+    "tarball": "https://registry.npmjs.org/oracle-client/-/oracle-client-1.1.0.tgz"
+  },
+  "engines": {
+    "node": ">=5.0"
+  },
+  "gitHead": "fb3fb5a5af1eac3c586def6e3fea7f5f3b34a493",
+  "homepage": "https://github.com/JohanObrink/oracle-client#readme",
+  "keywords": [
+    "node",
+    "oracledb",
+    "socket.io",
+    "client"
+  ],
+  "license": "MIT",
+  "main": "lib/oracle-client",
+  "maintainers": [
+    {
+      "name": "johanobrink",
+      "email": "johan.obrink@gmail.com"
+    }
+  ],
+  "name": "oracle-client",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JohanObrink/oracle-client.git"
+  },
+  "scripts": {
+    "major-release": "npm version major && npm publish && git push origin master --follow-tags",
+    "minor-release": "npm version minor && npm publish && git push origin master --follow-tags",
+    "patch-release": "npm version patch && npm publish && git push origin master --follow-tags",
+    "test": "mocha test/**/*.spec.js"
+  },
+  "version": "1.1.0"
+}

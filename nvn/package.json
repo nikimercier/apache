@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nvn",
+        "scope": null,
+        "escapedName": "nvn",
+        "name": "nvn",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/niki"
+    ]
+  ],
+  "_from": "nvn@latest",
+  "_id": "nvn@0.0.1",
+  "_inCache": true,
+  "_location": "/nvn",
+  "_nodeVersion": "4.2.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nvn-0.0.1.tgz_1466562887329_0.7299611389171332"
+  },
+  "_npmUser": {
+    "name": "shubhamoli",
+    "email": "oli.shubham@gmail.com"
+  },
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nvn",
+    "scope": null,
+    "escapedName": "nvn",
+    "name": "nvn",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/nvn/-/nvn-0.0.1.tgz",
+  "_shasum": "8d3ba627369c3ce49fab9a2564f76e24e96f2cc3",
+  "_shrinkwrap": null,
+  "_spec": "nvn",
+  "_where": "/Users/niki",
+  "author": {
+    "name": "Shubham oli",
+    "email": "oli.shubham@gmail.com"
+  },
+  "dependencies": {},
+  "description": "A basic app to move back and forth file history in a directory",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "8d3ba627369c3ce49fab9a2564f76e24e96f2cc3",
+    "tarball": "https://registry.npmjs.org/nvn/-/nvn-0.0.1.tgz"
+  },
+  "license": "MIT",
+  "main": "app.js",
+  "maintainers": [
+    {
+      "name": "shubhamoli",
+      "email": "oli.shubham@gmail.com"
+    }
+  ],
+  "name": "nvn",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
+}

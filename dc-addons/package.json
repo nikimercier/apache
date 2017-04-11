@@ -1,0 +1,102 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "dc-addons",
+        "scope": null,
+        "escapedName": "dc-addons",
+        "name": "dc-addons",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/niki"
+    ]
+  ],
+  "_from": "dc-addons@latest",
+  "_id": "dc-addons@0.13.5",
+  "_inCache": true,
+  "_location": "/dc-addons",
+  "_nodeVersion": "4.4.3",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/dc-addons-0.13.5.tgz_1471385482236_0.5547055318020284"
+  },
+  "_npmUser": {
+    "name": "intellipharm",
+    "email": "damian@intellipharm.com.au"
+  },
+  "_npmVersion": "3.9.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "dc-addons",
+    "scope": null,
+    "escapedName": "dc-addons",
+    "name": "dc-addons",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/dc-addons/-/dc-addons-0.13.5.tgz",
+  "_shasum": "545a04981fb25f715632cfe941ac6ae12faef463",
+  "_shrinkwrap": null,
+  "_spec": "dc-addons",
+  "_where": "/Users/niki",
+  "bugs": {
+    "url": "https://github.com/Intellipharm/dc-addons/issues"
+  },
+  "dependencies": {
+    "crossfilter": "^1.3.11",
+    "d3": "^3.5.5",
+    "dc": "https://github.com/dc-js/dc.js/tarball/master",
+    "express": "^4.13.1",
+    "jsdom": "^8.0.0",
+    "moment": "^2.10.3",
+    "mysql": "^2.9.0",
+    "request": "^2.67.0",
+    "socket.io": "^1.3.5"
+  },
+  "description": "These [dc.js](http://dc-js.github.io/dc.js/) addons provide new charts for the dc namespace.",
+  "devDependencies": {
+    "glob": "^7.0.0",
+    "grunt": "^1.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.0",
+    "grunt-jscs": "^2.0.0",
+    "grunt-notify": "^0.4.1",
+    "load-grunt-tasks": "^3.3.0",
+    "time-grunt": "^1.2.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "545a04981fb25f715632cfe941ac6ae12faef463",
+    "tarball": "https://registry.npmjs.org/dc-addons/-/dc-addons-0.13.5.tgz"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "gitHead": "e0bdbfefcea2ab184a60982780b3724d312f226c",
+  "homepage": "https://github.com/Intellipharm/dc-addons#readme",
+  "maintainers": [
+    {
+      "name": "intellipharm",
+      "email": "damian@intellipharm.com.au"
+    }
+  ],
+  "name": "dc-addons",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Intellipharm/dc-addons.git"
+  },
+  "scripts": {},
+  "version": "0.13.5"
+}

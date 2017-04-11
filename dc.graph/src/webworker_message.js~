@@ -1,0 +1,45 @@
+var _layouts = {};
+
+function postResponse(event) {
+    return function(state) {
+        var message = {
+            response: event
+        };
+        if(state)
+            message.state = state;
+        postMessage(message);
+    };
+}
+
+onmessage = function(e) {
+    var args = e.data.args;
+    switch(e.data.command) {
+    case 'init':
+        _layouts[args.name] = dc_graph.cola_layout()
+            .on('tick', postResponse('tick'))
+            .on('start', postResponse('start'))
+            .on('end', postResponse('end'))
+            .init(args.options);
+        // init_d3cola(args.width, args.height, args.handleDisconnected,
+        //             args.lengthStrategy, args.baseLength, args.flowLayout,
+        //             args.tickSize);
+        break;
+    case 'data':
+        _layouts[args.name].init(args.nodes, args.edges, args.constraints, args.opts);
+        // data_d3cola(args.nodes, args.edges, args.constraints, args.opts);
+        break;
+    case 'start':
+        // if(args.initialOnly) {
+        //     if(args.showLayoutSteps)
+        //         _tick();
+        //     _done();
+        // }
+        // else
+            _layouts[args.name].start(args.options);
+        break;
+    case 'stop':
+        _layouts[args.name].stop();
+        break;
+    }
+};
+

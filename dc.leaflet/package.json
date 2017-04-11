@@ -1,0 +1,167 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "dc.leaflet",
+        "scope": null,
+        "escapedName": "dc.leaflet",
+        "name": "dc.leaflet",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/niki"
+    ]
+  ],
+  "_from": "dc.leaflet@latest",
+  "_id": "dc.leaflet@0.3.1",
+  "_inCache": true,
+  "_location": "/dc.leaflet",
+  "_nodeVersion": "4.2.2",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/dc.leaflet-0.3.1.tgz_1483644427070_0.09836532175540924"
+  },
+  "_npmUser": {
+    "name": "gordonwoodhull",
+    "email": "gordon@woodhull.com"
+  },
+  "_npmVersion": "4.0.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "dc.leaflet",
+    "scope": null,
+    "escapedName": "dc.leaflet",
+    "name": "dc.leaflet",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/dc.leaflet/-/dc.leaflet-0.3.1.tgz",
+  "_shasum": "c293977f57538021ead01c36f99ad94d69a4f74f",
+  "_shrinkwrap": null,
+  "_spec": "dc.leaflet",
+  "_where": "/Users/niki",
+  "author": {
+    "name": "Boyan Yurukov",
+    "url": "http://yurukov.net/blog"
+  },
+  "bugs": {
+    "url": "https://github.com/dc-js/dc.leaflet.js/issues"
+  },
+  "contributors": [
+    {
+      "name": "Boyan Yurukov",
+      "email": "yurukov@gmail.com"
+    },
+    {
+      "name": "Viktor Forsman",
+      "email": "viktor.forsman@gmail.com"
+    },
+    {
+      "name": "Gordon Woodhull",
+      "email": "gordon@woodhull.com"
+    },
+    {
+      "name": "Taylor Denouden",
+      "email": "taylordenouden@gmail.com"
+    },
+    {
+      "name": "Cathy Nangini",
+      "email": "cnangini@gmail.com"
+    },
+    {
+      "name": "Arseny Kurnikov"
+    },
+    {
+      "name": "Horace Ip",
+      "email": "salivian@gmail.com"
+    },
+    {
+      "name": "Alan Kavanagh",
+      "email": "alan@unravel.ie"
+    }
+  ],
+  "copyright": "2015",
+  "dependencies": {
+    "crossfilter2": "~1.3",
+    "d3": "3.x",
+    "dc": "~2.0.0",
+    "leaflet": "~1.0.2",
+    "leaflet.markercluster": "~1.0.0"
+  },
+  "description": "Leaflet maps integrated with crossfilter and dc.js",
+  "devDependencies": {
+    "emu": "~0.0.2",
+    "grunt": "~1.0",
+    "grunt-browserify": "~5.0",
+    "grunt-cli": "~1.2",
+    "grunt-contrib-concat": "~1.0",
+    "grunt-contrib-connect": "~1.0",
+    "grunt-contrib-copy": "~1.0",
+    "grunt-contrib-jshint": "~1.1",
+    "grunt-contrib-uglify": "~2.0",
+    "grunt-contrib-watch": "~1.0",
+    "grunt-fileindex": "~0.1",
+    "grunt-gh-pages": "~2",
+    "grunt-jscs": "~3.0",
+    "grunt-markdown": "~0.7",
+    "grunt-saucelabs": "~9.0",
+    "grunt-shell": "~2.1",
+    "jquery": "~2.1.x",
+    "jsdifflib": "~1.1",
+    "load-grunt-tasks": "~3.5",
+    "marked": "~0.3",
+    "time-grunt": "~1.4",
+    "uglify-js": "~2.7"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "c293977f57538021ead01c36f99ad94d69a4f74f",
+    "tarball": "https://registry.npmjs.org/dc.leaflet/-/dc.leaflet-0.3.1.tgz"
+  },
+  "gitHead": "9c04221927b991d7a5eb9f627634577435be3b88",
+  "homepage": "http://dc-js.github.io/dc.leaflet.js/",
+  "keywords": [
+    "visualization",
+    "leaflet",
+    "animation",
+    "map",
+    "crossfilter",
+    "d3"
+  ],
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "gordonwoodhull",
+      "email": "gordon@woodhull.com"
+    }
+  ],
+  "name": "dc.leaflet",
+  "npmFileMap": [
+    {
+      "basePath": "/",
+      "files": [
+        "dc.leaflet.css",
+        "dc.leaflet.min.js",
+        "dc.leaflet.min.js.map",
+        "dc.leaflet.js",
+        "dc.leaflet.js.map"
+      ]
+    }
+  ],
+  "npmName": "dc.leaflet",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dc-js/dc.leaflet.js.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "version": "0.3.1"
+}

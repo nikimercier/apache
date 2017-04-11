@@ -1,0 +1,112 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "apatite",
+        "scope": null,
+        "escapedName": "apatite",
+        "name": "apatite",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/"
+    ]
+  ],
+  "_from": "apatite@latest",
+  "_id": "apatite@1.8.5",
+  "_inCache": true,
+  "_location": "/apatite",
+  "_nodeVersion": "6.1.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/apatite-1.8.5.tgz_1486828294682_0.6419145464897156"
+  },
+  "_npmUser": {
+    "name": "pmadhur",
+    "email": "pmadhur@gmail.com"
+  },
+  "_npmVersion": "3.8.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "apatite",
+    "scope": null,
+    "escapedName": "apatite",
+    "name": "apatite",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/apatite/-/apatite-1.8.5.tgz",
+  "_shasum": "01d941b564929e962995e6c600fb3dfc8d1be4ad",
+  "_shrinkwrap": null,
+  "_spec": "apatite",
+  "_where": "/",
+  "author": {
+    "name": "Madhu",
+    "email": "pmadhur@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/apatitejs/apatite/issues"
+  },
+  "dependencies": {},
+  "description": "Object persistence framework for Node.js. ORM framework supports: MySQL, Oracle, Postgres, SQL Server, Sqlite.",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "01d941b564929e962995e6c600fb3dfc8d1be4ad",
+    "tarball": "https://registry.npmjs.org/apatite/-/apatite-1.8.5.tgz"
+  },
+  "engines": {
+    "node": ">=6.1.0"
+  },
+  "files": [
+    "lib/",
+    "test/",
+    "LICENCE",
+    "index.js",
+    "README.md"
+  ],
+  "gitHead": "7ae759acbaf4e47c792182728231eec12ff6185d",
+  "homepage": "https://github.com/apatitejs/apatite#readme",
+  "keywords": [
+    "apatite",
+    "orm",
+    "persistence",
+    "framework",
+    "mapping",
+    "object",
+    "oracle",
+    "postgres",
+    "mysql",
+    "sql server",
+    "ms sql",
+    "sqlite",
+    "sqlite3"
+  ],
+  "license": "(MIT)",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "pmadhur",
+      "email": "pmadhur@gmail.com"
+    }
+  ],
+  "name": "apatite",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apatitejs/apatite.git"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "version": "1.8.5"
+}

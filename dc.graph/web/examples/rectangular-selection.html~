@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rectangular selection of nodes</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../css/dc.graph.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/dc.css"/>
+
+  <script type="text/javascript" src="../js/d3.js"></script>
+  <script type="text/javascript" src="../js/crossfilter.js"></script>
+  <script type="text/javascript" src="../js/dc.js"></script>
+
+  <script type="text/javascript" src="../js/cola.js"></script>
+  <script type="text/javascript" src="../js/dagre.js"></script>
+  <script type="text/javascript" src="../js/dc.graph.js"></script>
+
+  <script type="text/javascript" src="../js/querystring.js"></script>
+
+  <style type="text/css">
+    body {
+      overflow: hidden;
+      margin: 0;
+    }
+  </style>
+
+</head>
+
+
+<body>
+
+  <div id="graph" class="chart"></div>
+  <div id="pie"></div>
+
+  <script type="text/javascript">
+
+    (function() {
+        function build_data(nodes, edges) {
+            // build crossfilters from scratch
+            return {
+                edgef: dc_graph.flat_group.make(edges, function(d) {
+                    return d.id;
+                }),
+                nodef: dc_graph.flat_group.make(nodes, function(d) {
+                    return d.id;
+                })
+            };
+        }
+
+        var qs = querystring.parse();
+        var random = dc_graph.random_graph({
+            ncolors: 3
+        });
+
+        var engine = dc_graph.webworker_layout(dc_graph.cola_layout());
+        var diagram = dc_graph.diagram('#graph');
+        random.generate(qs.n || 100);
+        var data = build_data(random.nodes(), random.edges());
+        diagram
+            .layoutEngine(engine)
+            .width(document.documentElement.clientWidth)
+            .height(document.documentElement.clientHeight)
+            .nodeDimension(data.nodef.dimension).nodeGroup(data.nodef.group)
+            .edgeDimension(data.edgef.dimension).edgeGroup(data.edgef.group)
+            .nodeStrokeWidth(0) // turn off outlines
+            .nodeLabel(function(kv) { return kv.key; })
+            .nodeLabelFill(function(n) {
+                var rgb = d3.rgb(diagram.nodeFillScale()(diagram.nodeFill()(n))),
+                    // https://www.w3.org/TR/AERT#color-contrast
+                    brightness = (rgb.r * 299 + rgb.g * 587 + rgb.b * 114) / 1000;
+                return brightness > 127 ? 'black' : 'ghostwhite';
+            })
+            .nodeFill(function(kv) {
+                return kv.value.color;
+            })
+            .nodeFillScale(d3.scale.ordinal().range(
+                ['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99','#e31a1c',
+                 '#fdbf6f','#ff7f00','#cab2d6','#6a3d9a','#ffff99','#b15928']))
+            .nodeTitle(null) // deactivate basic tooltips
+            .edgeArrowhead(qs.arrows ? 'vee' : null)
+            .render();
+    })();
+</script>
+</body>

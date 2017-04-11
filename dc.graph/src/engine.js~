@@ -1,0 +1,23 @@
+dc_graph.spawn_engine = function(layout, args, worker) {
+    var engine, params;
+    switch(layout) {
+    case 'dagre':
+        engine = dc_graph.dagre_layout();
+        params = ['rankdir'];
+        break;
+    case 'tree':
+        engine = dc_graph.tree_layout();
+        params = [];
+        break;
+    case 'cola':
+    default:
+        engine = dc_graph.cola_layout();
+        params = ['lengthStrategy'];
+        break;
+    }
+    params.forEach(function(p) {
+        if(args[p])
+            engine[p](args[p]);
+    });
+    if(worker !== 'false')
+        engine = dc_graph.webworker_layout(engine);

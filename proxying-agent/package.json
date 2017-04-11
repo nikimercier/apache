@@ -1,0 +1,127 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "proxying-agent",
+        "scope": null,
+        "escapedName": "proxying-agent",
+        "name": "proxying-agent",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/"
+    ],
+    [
+      {
+        "raw": "node_modules/proxying-agent",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "node_modules/proxying-agent",
+        "spec": "/node_modules/proxying-agent",
+        "type": "directory",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:node_modules/proxying-agent.git",
+          "sshUrl": "git+ssh://git@github.com/node_modules/proxying-agent.git",
+          "httpsUrl": "git+https://github.com/node_modules/proxying-agent.git",
+          "gitUrl": "git://github.com/node_modules/proxying-agent.git",
+          "shortcut": "github:node_modules/proxying-agent",
+          "directUrl": "https://raw.githubusercontent.com/node_modules/proxying-agent/master/package.json"
+        }
+      },
+      "/"
+    ]
+  ],
+  "_from": "proxying-agent@latest",
+  "_id": "proxying-agent@2.1.1",
+  "_inCache": true,
+  "_location": "/proxying-agent",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/proxying-agent-2.1.1.tgz_1491815079617_0.29065578314475715"
+  },
+  "_npmUser": {
+    "name": "fujifish",
+    "email": "fujifischer@gmail.com"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "node_modules/proxying-agent",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "node_modules/proxying-agent",
+    "spec": "/node_modules/proxying-agent",
+    "type": "directory",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:node_modules/proxying-agent.git",
+      "sshUrl": "git+ssh://git@github.com/node_modules/proxying-agent.git",
+      "httpsUrl": "git+https://github.com/node_modules/proxying-agent.git",
+      "gitUrl": "git://github.com/node_modules/proxying-agent.git",
+      "shortcut": "github:node_modules/proxying-agent",
+      "directUrl": "https://raw.githubusercontent.com/node_modules/proxying-agent/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/proxying-agent/-/proxying-agent-2.1.1.tgz",
+  "_shasum": "bdd846ae652ce490b769900d4bb2a5225463ad0a",
+  "_shrinkwrap": null,
+  "_spec": "node_modules/proxying-agent",
+  "_where": "/",
+  "author": {
+    "name": "Capriza Inc.",
+    "email": "backend@capriza.com"
+  },
+  "bugs": {
+    "url": "https://github.com/capriza/node-proxying-agent/issues"
+  },
+  "dependencies": {},
+  "description": "Node HTTP/HTTPS Forward Proxy Agent",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "bdd846ae652ce490b769900d4bb2a5225463ad0a",
+    "tarball": "https://registry.npmjs.org/proxying-agent/-/proxying-agent-2.1.1.tgz"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "gitHead": "f07f19e79dc374dc0a8e44ce3dba700fbe397cd5",
+  "homepage": "https://github.com/capriza/node-proxying-agent/",
+  "keywords": [
+    "http",
+    "https",
+    "agent",
+    "proxy",
+    "tunnel",
+    "ntlm"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "fujifish",
+      "email": "fujifischer@gmail.com"
+    },
+    {
+      "name": "ycarmel",
+      "email": "yuval.carmel@gmail.com"
+    }
+  ],
+  "name": "proxying-agent",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capriza/node-proxying-agent.git"
+  },
+  "scripts": {},
+  "version": "2.1.1"
+}

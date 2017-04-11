@@ -1,0 +1,6 @@
+dc_graph.layout_webworker = function(layoutEngine) {
+    var _worker, _tick, _done;
+    return {
+        init: function(options) {
+            
+};

@@ -1,0 +1,125 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "express-ntlm",
+        "scope": null,
+        "escapedName": "express-ntlm",
+        "name": "express-ntlm",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/"
+    ],
+    [
+      {
+        "raw": "node_modules/express-ntlm",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "node_modules/express-ntlm",
+        "spec": "/node_modules/express-ntlm",
+        "type": "directory",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:node_modules/express-ntlm.git",
+          "sshUrl": "git+ssh://git@github.com/node_modules/express-ntlm.git",
+          "httpsUrl": "git+https://github.com/node_modules/express-ntlm.git",
+          "gitUrl": "git://github.com/node_modules/express-ntlm.git",
+          "shortcut": "github:node_modules/express-ntlm",
+          "directUrl": "https://raw.githubusercontent.com/node_modules/express-ntlm/master/package.json"
+        }
+      },
+      "/"
+    ]
+  ],
+  "_from": "express-ntlm@latest",
+  "_id": "express-ntlm@2.1.8",
+  "_inCache": true,
+  "_location": "/express-ntlm",
+  "_nodeVersion": "6.9.2",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/express-ntlm-2.1.8.tgz_1490179459164_0.8730805397499353"
+  },
+  "_npmUser": {
+    "name": "einfallstoll",
+    "email": "fabio@APP-roved.com"
+  },
+  "_npmVersion": "4.1.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "node_modules/express-ntlm",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "node_modules/express-ntlm",
+    "spec": "/node_modules/express-ntlm",
+    "type": "directory",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:node_modules/express-ntlm.git",
+      "sshUrl": "git+ssh://git@github.com/node_modules/express-ntlm.git",
+      "httpsUrl": "git+https://github.com/node_modules/express-ntlm.git",
+      "gitUrl": "git://github.com/node_modules/express-ntlm.git",
+      "shortcut": "github:node_modules/express-ntlm",
+      "directUrl": "https://raw.githubusercontent.com/node_modules/express-ntlm/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/express-ntlm/-/express-ntlm-2.1.8.tgz",
+  "_shasum": "4f505785e5640849436c8a808b8e97b4ba51f354",
+  "_shrinkwrap": null,
+  "_spec": "node_modules/express-ntlm",
+  "_where": "/",
+  "author": {
+    "name": "Fabio Poloni \"fabio@APP-roved.com\"",
+    "url": "http://APP-roved.com"
+  },
+  "bugs": {
+    "url": "https://github.com/einfallstoll/express-ntlm/issues"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "underscore": "^1.7.0"
+  },
+  "description": "An express middleware to have simple NTLM-authentication.",
+  "devDependencies": {
+    "express": "^4.10.4"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "4f505785e5640849436c8a808b8e97b4ba51f354",
+    "tarball": "https://registry.npmjs.org/express-ntlm/-/express-ntlm-2.1.8.tgz"
+  },
+  "gitHead": "8e4d916211dfdb8a844679eea893d2684d6d5819",
+  "homepage": "https://github.com/einfallstoll/express-ntlm",
+  "keywords": [
+    "express",
+    "ntlm",
+    "ldap",
+    "authentication"
+  ],
+  "license": "BSD-2-Clause",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "einfallstoll",
+      "email": "fabio@APP-roved.com"
+    }
+  ],
+  "name": "express-ntlm",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/einfallstoll/express-ntlm.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.1.8"
+}

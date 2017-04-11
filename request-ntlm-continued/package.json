@@ -1,0 +1,128 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "request-ntlm-continued",
+        "scope": null,
+        "escapedName": "request-ntlm-continued",
+        "name": "request-ntlm-continued",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/"
+    ]
+  ],
+  "_from": "request-ntlm-continued@latest",
+  "_id": "request-ntlm-continued@0.1.5",
+  "_inCache": true,
+  "_location": "/request-ntlm-continued",
+  "_nodeVersion": "5.2.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/request-ntlm-continued-0.1.5.tgz_1490805901099_0.49079265422187746"
+  },
+  "_npmUser": {
+    "name": "ihayden",
+    "email": "immanuel.hayden@gmail.com"
+  },
+  "_npmVersion": "3.3.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "request-ntlm-continued",
+    "scope": null,
+    "escapedName": "request-ntlm-continued",
+    "name": "request-ntlm-continued",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/request-ntlm-continued/-/request-ntlm-continued-0.1.5.tgz",
+  "_shasum": "cc7b5257f07d386b295c39bab5f0caff84cb94d7",
+  "_shrinkwrap": null,
+  "_spec": "request-ntlm-continued",
+  "_where": "/",
+  "bugs": {
+    "url": "https://github.com/FrankyBoy/request-ntlm/issues"
+  },
+  "contributors": [
+    {
+      "name": "Colyn Brown",
+      "email": "clbrown@godaddy.com"
+    },
+    {
+      "name": "Immanuel Hayden",
+      "email": "immanuel.hayden@gmail.com"
+    },
+    {
+      "name": "Brett Profitt",
+      "email": "brett.profitt@gmail.com"
+    },
+    {
+      "name": "Andreas Pizsa",
+      "url": "https://github.com/AndreasPizsa"
+    },
+    {
+      "name": "Adam Nielsen",
+      "url": "https://github.com/adam-nielsen"
+    },
+    {
+      "name": "Ygal Bellaiche",
+      "url": "https://github.com/ygalbel"
+    }
+  ],
+  "dependencies": {
+    "agentkeepalive": "^2.0.3",
+    "async": "^0.7.0",
+    "lodash": "^2.4.1",
+    "request": "^2.34.0"
+  },
+  "description": "NTLM auth for NodeJS - continued from Colyn Brown's project",
+  "devDependencies": {
+    "coveralls": "*",
+    "istanbul": "*",
+    "mocha": "*",
+    "mocha-lcov-reporter": "*",
+    "should": "*"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "cc7b5257f07d386b295c39bab5f0caff84cb94d7",
+    "tarball": "https://registry.npmjs.org/request-ntlm-continued/-/request-ntlm-continued-0.1.5.tgz"
+  },
+  "gitHead": "33d564eb44fd89f803330ed33749b13ef303e972",
+  "homepage": "https://github.com/FrankyBoy/request-ntlm#readme",
+  "keywords": [
+    "ntlm",
+    "authentication",
+    "auth",
+    "login",
+    "windows",
+    "microsoft",
+    "request",
+    "http",
+    "https"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "ihayden",
+      "email": "immanuel.hayden@gmail.com"
+    }
+  ],
+  "name": "request-ntlm-continued",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrankyBoy/request-ntlm.git"
+  },
+  "scripts": {
+    "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "version": "0.1.5"
+}

@@ -1,0 +1,10 @@
+
+name: "pool-name"
+path: "/tmp/pool/path"
+type: "vagrant"
+"config":
+  "path":
+    "to":
+      "test": "value"
+vm:
+vmg:

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <production>
+    <name>pool-name-production</name>
+    <path><![CDATA[/tmp/pool/path]]></path>
+    <type>pool-name</type>
+    <config>
+      <path>
+        <to>
+          <test>value</test>
+        </to>
+      </path>
+      <vm />
+      <vmg />
+    </config>
+  </production>
+  <development>
+    <name>pool-name-development</name>
+    <path><![CDATA[/tmp/pool/path]]></path>
+    <type>pool-name</type>
+    <config>
+      <path>
+        <to>
+          <test>value</test>
+        </to>
+      </path>
+      <vm />
+      <vmg />
+    </config>
+  </development>
+</root>

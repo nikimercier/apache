@@ -1,0 +1,10 @@
+// define a basic set of attributes which layout engines should implement - although these are not
+// required, they make it easier for clients and behaviors (like expand_collapse) to work with
+// multiple layout engines
+// these attributes are {@link http://www.graphviz.org/doc/info/attrs.html from graphviz}
+
+dc_graph.graphviz_attrs = function() {
+    return {
+        rankdir: property('LR')
+    };
+};

@@ -1,0 +1,45 @@
+{
+	// The server configuration
+	"server": {
+	    // The server port to listen at
+	    "port": 8999,
+
+	    // The mapping for servicing static files
+	    "static": [
+	        {
+	            "mountPath": "/",
+	            "physicalDirectory": "./static"
+	        }
+	    ],
+
+	    // Suppress any console output
+	    "suppressOutput": false,
+
+	    // Enable http request logging
+	    "requestLogging": true,
+
+	    // Enable tracing
+	    "requestTracing": false
+	},
+    // Service configuration (used for each individual connection)
+    "services": [{
+            // The route to be intercepted for this service
+            "route": "sample",
+
+            // The default page
+            "defaultPage": "",
+
+            // The database username
+            "databaseUsername": "sample",
+
+            // The database password
+            "databasePassword": "sample",
+
+            // The database connect string
+            "databaseConnectString": "",
+
+            // The name of the table for file uploads
+            "documentTableName": "doctable"
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "ntlm-webapi",
+        "scope": null,
+        "escapedName": "ntlm-webapi",
+        "name": "ntlm-webapi",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/"
+    ]
+  ],
+  "_from": "ntlm-webapi@latest",
+  "_id": "ntlm-webapi@1.0.4",
+  "_inCache": true,
+  "_location": "/ntlm-webapi",
+  "_nodeVersion": "4.2.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/ntlm-webapi-1.0.4.tgz_1457552735283_0.6784043421503156"
+  },
+  "_npmUser": {
+    "name": "jwinthers",
+    "email": "justin@digitaladvisors.io"
+  },
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ntlm-webapi",
+    "scope": null,
+    "escapedName": "ntlm-webapi",
+    "name": "ntlm-webapi",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/ntlm-webapi/-/ntlm-webapi-1.0.4.tgz",
+  "_shasum": "2cdba0e4383755297b3b0bef4c98743b04f78134",
+  "_shrinkwrap": null,
+  "_spec": "ntlm-webapi",
+  "_where": "/",
+  "author": {
+    "name": "Justin Winthers"
+  },
+  "bugs": {
+    "url": "https://github.com/JustinWinthers/ntlm-webapi/issues"
+  },
+  "contributors": [
+    {
+      "name": "Justin Winthers",
+      "email": "jwintherse@gmail.com",
+      "url": "https://github.com/JustinWinthers/"
+    }
+  ],
+  "dependencies": {
+    "agentkeepalive": "^2.0.3",
+    "async": "^1.4.2",
+    "bluebird": "^2.10.1",
+    "httpntlm": "^1.5.2",
+    "httpreq": "^0.4.13"
+  },
+  "description": "Easily call a Windows authenticated WebAPI from Node",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "eslint": "^1.5.1",
+    "mocha": "^2.3.3",
+    "nock": "^2.13.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "2cdba0e4383755297b3b0bef4c98743b04f78134",
+    "tarball": "https://registry.npmjs.org/ntlm-webapi/-/ntlm-webapi-1.0.4.tgz"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "gitHead": "81d05c85dcae7945de0294743b2a6eb234e48f78",
+  "homepage": "https://github.com/JustinWinthers/ntlm-webapi",
+  "keywords": [
+    "ntlm",
+    "web",
+    "api",
+    "webapi",
+    "ntlm-webapi"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "jwinthers",
+      "email": "justin@digitaladvisors.io"
+    }
+  ],
+  "name": "ntlm-webapi",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinWinthers/ntlm-webapi.git"
+  },
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js src test",
+    "test": "npm run lint  && ./node_modules/mocha/bin/mocha"
+  },
+  "version": "1.0.4"
+}

@@ -1,0 +1,99 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "dc-config",
+        "scope": null,
+        "escapedName": "dc-config",
+        "name": "dc-config",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/niki"
+    ]
+  ],
+  "_from": "dc-config@latest",
+  "_id": "dc-config@0.0.1",
+  "_inCache": true,
+  "_location": "/dc-config",
+  "_nodeVersion": "0.12.3",
+  "_npmUser": {
+    "name": "dragoscirjan",
+    "email": "dragos.cirjan@gmail.com"
+  },
+  "_npmVersion": "2.9.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "dc-config",
+    "scope": null,
+    "escapedName": "dc-config",
+    "name": "dc-config",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/dc-config/-/dc-config-0.0.1.tgz",
+  "_shasum": "3c15d70e62562ac6a63c00665dfd3669a1ef40ee",
+  "_shrinkwrap": null,
+  "_spec": "dc-config",
+  "_where": "/Users/niki",
+  "author": {
+    "name": "Dragos Cirjan",
+    "email": "dragos.cirjan@gmail.com",
+    "url": "https://github.com/dragoscirjan"
+  },
+  "bugs": {
+    "url": "https://github.com/dragoscirjan/nodejs-config/issues"
+  },
+  "dependencies": {
+    "extend": "*",
+    "q": "*",
+    "read-yaml": "*",
+    "write-yaml": "*",
+    "xml": "1.0.0",
+    "xml2json": "0.6.2"
+  },
+  "description": "Config Manager Tool",
+  "devDependencies": {
+    "grunt-contrib-coffee": "*",
+    "grunt-mocha-test": "*",
+    "mocha": "*"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "3c15d70e62562ac6a63c00665dfd3669a1ef40ee",
+    "tarball": "https://registry.npmjs.org/dc-config/-/dc-config-0.0.1.tgz"
+  },
+  "gitHead": "db2aa2fd7be5d5488e2ade8f0997e7980de4931e",
+  "homepage": "https://github.com/dragoscirjan/nodejs-config#readme",
+  "keywords": [
+    "pomises",
+    "events"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dragoscirjan/nodejs-config/blob/master/LICENSE"
+    }
+  ],
+  "main": "config.js",
+  "maintainers": [
+    {
+      "name": "dragoscirjan",
+      "email": "dragos.cirjan@gmail.com"
+    }
+  ],
+  "name": "dc-config",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dragoscirjan/nodejs-config.git"
+  },
+  "scripts": {},
+  "version": "0.0.1"
+}

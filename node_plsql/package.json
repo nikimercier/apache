@@ -1,0 +1,162 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "node_plsql",
+        "scope": null,
+        "escapedName": "node_plsql",
+        "name": "node_plsql",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/"
+    ]
+  ],
+  "_from": "node_plsql@latest",
+  "_id": "node_plsql@0.8.1",
+  "_inCache": true,
+  "_location": "/node_plsql",
+  "_nodeVersion": "4.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-13-west.internal.npmjs.com",
+    "tmp": "tmp/node_plsql-0.8.1.tgz_1458158770105_0.9138418461661786"
+  },
+  "_npmUser": {
+    "name": "doberkofler",
+    "email": "dieter.oberkofler@gmail.com"
+  },
+  "_npmVersion": "3.8.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "node_plsql",
+    "scope": null,
+    "escapedName": "node_plsql",
+    "name": "node_plsql",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/node_plsql/-/node_plsql-0.8.1.tgz",
+  "_shasum": "619e869d440be5c2ee7e674a80847918063c7ce4",
+  "_shrinkwrap": null,
+  "_spec": "node_plsql",
+  "_where": "/",
+  "author": {
+    "name": "Dieter Oberkofler",
+    "email": "doberkofler.github@gmail.com"
+  },
+  "bin": {
+    "node_plsql": "./bin/node_plsql.js"
+  },
+  "bugs": {
+    "url": "https://github.com/doberkofler/node_plsql/issues"
+  },
+  "contributors": [
+    {
+      "name": "Dieter Oberkofler"
+    }
+  ],
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.15.0",
+    "colors": "^1.0.3",
+    "compression": "^1.4.3",
+    "connect-multiparty": "^2.0.0",
+    "cookie-parser": "^1.4.1",
+    "debug": "^2.1.3",
+    "ejs": "^2.3.1",
+    "es6-promise": "^3.1.2",
+    "express": "^4.12.3",
+    "http-parser-js": "^0.4.1",
+    "inquirer": "^0.12.0",
+    "js-yaml": "^3.5.4",
+    "mkdirp": "^0.5.0",
+    "morgan": "^1.7.0",
+    "ms": "^0.7.0",
+    "nopt": "^3.0.1",
+    "oracledb": "^1.7.1",
+    "serve-static": "^1.9.2",
+    "strip-json-comments": "^2.0.1",
+    "underscore": "^1.8.3"
+  },
+  "description": "The Node.js PL/SQL Gateway for Oracle (nodejs, plsql)",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "glob": "^7.0.3",
+    "gulp": "^3.9.1",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-debug": "^2.1.2",
+    "gulp-eslint": "^2.0.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-jsonlint": "^1.1.2",
+    "gulp-mocha": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.7",
+    "run-sequence": "^1.1.5",
+    "supertest": "^1.2.0",
+    "through": "^2.3.8"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "619e869d440be5c2ee7e674a80847918063c7ce4",
+    "tarball": "https://registry.npmjs.org/node_plsql/-/node_plsql-0.8.1.tgz"
+  },
+  "engines": {
+    "node": ">=4.1"
+  },
+  "files": [
+    "bin",
+    "conf",
+    "demo",
+    "lib",
+    "test",
+    "views",
+    ".eslintrc.json",
+    "AUTHORS",
+    "CHANGELOG.md",
+    "INSTALL.md",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "gitHead": "09e8042bed35106663cca8ff18c26ba49553d326",
+  "homepage": "https://github.com/doberkofler/node_plsql",
+  "keywords": [
+    "plsql",
+    "pl/sql",
+    "node",
+    "nodejs",
+    "listener",
+    "server",
+    "apex",
+    "mod_plsql",
+    "ohs",
+    "database",
+    "db",
+    "oracle"
+  ],
+  "license": "MIT",
+  "main": "./lib/api.js",
+  "maintainers": [
+    {
+      "name": "doberkofler",
+      "email": "doberkofler.github@gmail.com"
+    }
+  ],
+  "name": "node_plsql",
+  "optionalDependencies": {
+    "oracledb": "^1.7.1"
+  },
+  "preferGlobal": true,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/doberkofler/node_plsql.git"
+  },
+  "scripts": {},
+  "version": "0.8.1"
+}

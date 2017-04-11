@@ -1,0 +1,112 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "dc-utils",
+        "scope": null,
+        "escapedName": "dc-utils",
+        "name": "dc-utils",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/"
+    ]
+  ],
+  "_from": "dc-utils@latest",
+  "_id": "dc-utils@1.2.1",
+  "_inCache": true,
+  "_location": "/dc-utils",
+  "_nodeVersion": "5.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/dc-utils-1.2.1.tgz_1460337520193_0.2929313520435244"
+  },
+  "_npmUser": {
+    "name": "dcortes92",
+    "email": "dcortes1892@gmail.com"
+  },
+  "_npmVersion": "3.3.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "dc-utils",
+    "scope": null,
+    "escapedName": "dc-utils",
+    "name": "dc-utils",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/dc-utils/-/dc-utils-1.2.1.tgz",
+  "_shasum": "994191fd4ca196c2e12c6e4c2d2b3ea84dafa26e",
+  "_shrinkwrap": null,
+  "_spec": "dc-utils",
+  "_where": "/",
+  "author": {
+    "name": "Daniel Cortes",
+    "email": "dcortes1892@gmail.com",
+    "url": "http://dcortes92.github.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/dcortes92/dc-utils/issues"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run test:single && npm run check-coverage"
+    }
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  },
+  "dependencies": {},
+  "description": "JavaScript utilities.",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "codecov.io": "0.1.6",
+    "commitizen": "2.6.1",
+    "cz-conventional-changelog": "1.1.5",
+    "ghooks": "1.2.0",
+    "istanbul": "0.4.3",
+    "mocha": "2.4.5",
+    "semantic-release": "^4.3.5"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "994191fd4ca196c2e12c6e4c2d2b3ea84dafa26e",
+    "tarball": "https://registry.npmjs.org/dc-utils/-/dc-utils-1.2.1.tgz"
+  },
+  "gitHead": "efea4bdbe1600901610116ee01b3e88e43096d77",
+  "homepage": "https://github.com/dcortes92/dc-utils#readme",
+  "keywords": [
+    "javascript",
+    "utilities",
+    "dc"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "dcortes92",
+      "email": "dcortes1892@gmail.com"
+    }
+  ],
+  "name": "dc-utils",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcortes92/dc-utils.git"
+  },
+  "scripts": {
+    "check-coverage": "istanbul check-coverage --statements 100 --branches 90 --functions 100 --lines 100",
+    "commit": "git-cz",
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "test": "mocha src/index.test.js -w",
+    "test:single": "istanbul cover -x *.test.js _mocha -- -R spec src/index.test.js"
+  },
+  "version": "1.2.1"
+}

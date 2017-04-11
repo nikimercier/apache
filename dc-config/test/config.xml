@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <name>pool-name</name>
+  <path><![CDATA[/tmp/pool/path]]></path>
+  <type>pool-name</type>
+  <config>
+    <path>
+      <to>
+        <test>value</test>
+      </to>
+    </path>
+    <vm />
+    <vmg />
+  </config>
+</root>

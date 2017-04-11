@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "passport-trusted-header",
+        "scope": null,
+        "escapedName": "passport-trusted-header",
+        "name": "passport-trusted-header",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/"
+    ]
+  ],
+  "_from": "passport-trusted-header@latest",
+  "_id": "passport-trusted-header@1.1.0",
+  "_inCache": true,
+  "_location": "/passport-trusted-header",
+  "_nodeVersion": "0.10.31",
+  "_npmUser": {
+    "name": "jwhitfieldseed",
+    "email": "joeseed86@gmail.com"
+  },
+  "_npmVersion": "2.12.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "passport-trusted-header",
+    "scope": null,
+    "escapedName": "passport-trusted-header",
+    "name": "passport-trusted-header",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/passport-trusted-header/-/passport-trusted-header-1.1.0.tgz",
+  "_shasum": "a230fa0f876afb63759948d9ae7acb0d8cffcbea",
+  "_shrinkwrap": null,
+  "_spec": "passport-trusted-header",
+  "_where": "/",
+  "author": {
+    "name": "Joe Whitfield-Seed"
+  },
+  "bugs": {
+    "url": "https://github.com/ripjar/passport-trusted-header/issues"
+  },
+  "dependencies": {
+    "passport-strategy": "^1.0.0"
+  },
+  "description": "Passport.js strategy for trusted HTTP headers",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "colors": "^1.1.2",
+    "express": "^4.13.3",
+    "mocha": "^2.3.3",
+    "passport": "^0.3.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "a230fa0f876afb63759948d9ae7acb0d8cffcbea",
+    "tarball": "https://registry.npmjs.org/passport-trusted-header/-/passport-trusted-header-1.1.0.tgz"
+  },
+  "gitHead": "3eaf730e5f646c98c1ebe89c1b8d5c69fb67c143",
+  "homepage": "https://github.com/ripjar/passport-trusted-header",
+  "keywords": [
+    "passport",
+    "tls",
+    "ssl",
+    "client",
+    "cert",
+    "certificate",
+    "auth",
+    "authentication",
+    "http",
+    "header",
+    "headers",
+    "trusted",
+    "nginx",
+    "apache"
+  ],
+  "license": "MIT",
+  "main": "src",
+  "maintainers": [
+    {
+      "name": "jwhitfieldseed",
+      "email": "joeseed86@gmail.com"
+    }
+  ],
+  "name": "passport-trusted-header",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ripjar/passport-trusted-header.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.1.0"
+}
